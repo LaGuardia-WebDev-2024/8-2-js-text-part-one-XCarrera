@@ -12,9 +12,37 @@ draw = function(){
   
   if(mousePressed){
     showXYPositions();
+    
+    fill(0, 68, 255);
+    textSize(30);
+    
+    if(mousePressed){
+    text("Fish", random(0,600), random(0,400))
+    }
+    
   }
 
   //🎯New Text Code Should Go Here 🡻
+
+  fill(0,0,0)
+  textSize(38)
+  text("My Favorite Foods",151,30);
+  
+  fill(117, 76, 46)
+  textSize(38)
+  text("Bread",87,97);
+  
+  fill(222, 114, 13)
+  textSize(38)
+  text("Cheese",87,133);
+  
+  fill(17, 138, 6)
+  textSize(38)
+  text("Vegstables",87,169);
+  
+  fill(255, 21, 0)
+  textSize(38)
+  text("Fruits",87,205);
   
 };
 
